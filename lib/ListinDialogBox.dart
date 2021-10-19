@@ -10,16 +10,16 @@ class ListinAlertBox extends StatefulWidget {
 }
 
 class _ListinAlertBoxState extends State<ListinAlertBox> {
-  late int SelectedRadio;
+  late int selectedRadio;
   @override
   void initState() {
     super.initState();
-    SelectedRadio = 0;
+    selectedRadio = 0;
   }
 
   setSelectedRadio(int val) {
     setState(() {
-      SelectedRadio = val;
+      selectedRadio = val;
     });
   }
 
@@ -43,7 +43,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 activeColor: Colors.purple,
                 value: 1,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('On&on Will go'),
@@ -57,7 +57,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 value: 2,
                 activeColor: Colors.purple,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('Memories'),
@@ -71,7 +71,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 value: 3,
                 activeColor: Colors.purple,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('Phantom'),
@@ -85,7 +85,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 value: 4,
                 activeColor: Colors.purple,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('Alone'),
@@ -99,7 +99,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 value: 5,
                 activeColor: Colors.purple,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('Alone pt.II'),
@@ -113,7 +113,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 value: 6,
                 activeColor: Colors.purple,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('My Darling You & I'),
@@ -127,7 +127,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 activeColor: Colors.purple,
                 value: 7,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('Beliver'),
@@ -141,7 +141,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 activeColor: Colors.purple,
                 value: 8,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('Thunder'),
@@ -155,7 +155,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 activeColor: Colors.purple,
                 value: 9,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('On my Way'),
@@ -169,7 +169,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 activeColor: Colors.purple,
                 value: 10,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('Americana'),
@@ -183,7 +183,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 value: 11,
                 activeColor: Colors.purple,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('Phantom'),
@@ -197,7 +197,7 @@ class _ListinAlertBoxState extends State<ListinAlertBox> {
               leading: Radio(
                 activeColor: Colors.purple,
                 value: 12,
-                groupValue: SelectedRadio,
+                groupValue: selectedRadio,
                 onChanged: (_) {},
               ),
               title: Text('Make You Mine'),
